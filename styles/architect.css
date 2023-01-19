@@ -182,11 +182,6 @@ nav li {
     color: #727272;
 }
 
-.feature-up-part-description {
-   
-    
-}
-
 .feature-part {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
@@ -222,12 +217,137 @@ nav li {
     position: absolute;
     top: 78%;
     left: 48%;
-  
+
 
 }
 
 .btn-half-first {
     font-weight: 700;
     font-size: 30px;
-    
+
+}
+
+/* facts section */
+.facts {
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.facts h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 900px;
+}
+
+.facts p {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #727272;
+}
+
+/* box section */
+.box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-right: 400px;
+}
+
+.box-one .box-image {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.box-one .number {
+    color: #424242;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.box-one .box-prg {
+    color: #727272;
+    font-weight: 300px;
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.box .box-one {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.box .box-two {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+
+.box .box-three {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+
+.box .box-four {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+
+/* sponsors section */
+
+.sponsors-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.sponsors-heading-title {
+    font-weight: 900px;
+    margin-bottom: 10px;
+    color: #131313;
+    font-size: 30px;
+}
+
+.sponsors-heading-parg {
+    color: #727272;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+/* sponsors-section-pictures */
+.sponsors-picture{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sponsors-picture-one img{
+    width: 100px;
+}
+
+/* footer section */
+.footer{
+    text-align: center;
+    background-color: white;
+}
+.footer .footer-text{
+    color: #424242;
+    font-size: 12px;
+    font-weight: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
