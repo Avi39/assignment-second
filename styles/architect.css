@@ -75,12 +75,15 @@ nav li {
 }
 
 .container-quick-list-image {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     /* grid-row-gap:1px;
     grid-column-gap: 10px; */
     /* margin: 2px 301px 30px 280px; */
-    align-items: center;
+    /* align-items: center; */
+}
+.container-quick-list-image .image-one{
+    margin-left: 300px;
 }
 
 .container-quick-list-image .image-one img {
@@ -94,30 +97,33 @@ nav li {
 }
 
 .under-image-one {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: 30px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 
 .under-image-two {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: 30px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 
 .under-third-image-one {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: 10px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 
 .under-third-image-two {
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: 10px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+}
+.container-quick-list-rightside{
+    margin-top: 100px;
 }
 
-.container-quick-list-rightside h2 {
+.container-quick-list-rightside h2{
     margin-left: 35px;
     margin-right: 300px;
     margin-bottom: 10px;
@@ -387,6 +393,6 @@ nav li {
     }
     .sponsors-picture{
         gap: 50px;
-        margin-left: 200px;
+        margin-left: 2  00px;
     }
 }
