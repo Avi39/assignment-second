@@ -283,6 +283,9 @@ nav li {
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+.box-one:hover{
+    background-color: lightsteelblue;
+}
 
 .box .box-two {
     width: 150px;
@@ -342,12 +345,48 @@ nav li {
 /* footer section */
 .footer{
     text-align: center;
-    background-color: white;
+    height: 100px;
 }
 .footer .footer-text{
     color: #424242;
     font-size: 12px;
     font-weight: 10px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 30px;
+    padding-top: 25px;
+    width: 900px;
+    text-align: center;
+    margin-left: 190px;
+}
+@media screen and (max-width:576px){
+    body{
+        background-color: white;
+    }
+    nav{
+        justify-content:space-between;
+        width: 1000px;
+    }
+    .brand-new-center{
+        width: 1050px;
+        margin-left: 100px;
+    }
+    .container-features{
+       flex-direction: column;
+       margin-left: 150px;
+    }
+    .picture .btn-picture{
+        margin-top: 320px;
+        margin-left: -120px;
+    }
+    .sponsors-heading{
+        width: 100%;
+        margin-left: 400px;
+        margin-bottom: 100px;
+    }
+    .sponsors-picture{
+        gap: 50px;
+        margin-left: 200px;
+    }
 }
